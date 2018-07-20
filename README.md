@@ -1,0 +1,13 @@
+# Star Wars Planets
+
+This is a test React project that uses [https://swapi.co](https://swapi.co) to get Star Wars planets information and displays a random planet along with some information about it in a card.
+
+When clicking 'Next' it shows another random planet information.
+
+## Authors
+
+* [Guilherme Oliveira](https://github.com/guibfo)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
