@@ -1,0 +1,67 @@
+*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}body{background-color:#e3edf0;margin:0;padding:0;font-family:Open Sans,sans-serif}.PlanetCard__card___2bf2j {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px rgba(51, 51, 51, 0.6);
+  color: #333333;
+  width: 320px;
+  padding: 10px; }
+  .PlanetCard__card___2bf2j .PlanetCard__featured___MpnDp {
+    margin-top: 20px;
+    text-align: center; }
+  .PlanetCard__card__title___25Myy {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.6); }
+  .PlanetCard__card__body___1ntZ3 {
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px 0px rgba(51, 51, 51, 0.65);
+    padding: 15px 10px; }
+  .PlanetCard__card__label___3zXwr {
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #666666;
+    font-size: 12px;
+    padding-left: 18px; }
+    .PlanetCard__card__label___3zXwr.PlanetCard__population___2Nprs {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAASCAYAAACEnoQPAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAANiSURBVDiNPctLaFxVHIDx75x77r1zM5OZZprH2GinqX0oJbUxYNFG227cWeiqi4JQcVG7ciEIbhQU9xJq1Z2gCEVQFKy4lDatYsRESY1paSidOA+TaWYmc3Nf5+/C2m/zrX5KROCjp/TPY6cq75x+9+83z/jGlMdfMsq+FVp3OszM/IjXf/9+o/btp1+m6etfv/3IdP2rOucXrbpx8exQ3ylcSL3glNu8M+ct3ygoP3jRYiqNJO+NeL3YJ66n28kP8cGjW+noxLNOHH4zkPU+VD9+fP7XbixHbH1VlddXEJviONCJDO3YZ8iN8FzBxaIdh/XyfnRljwx66jedermi2VpPirUFdBICgsQJrqcZLBj6KqC7rRBl0XHIYG0Bs7WRpF6upKNy5WShsTzvei6ZUuB4JONPYg5MUTx0mPKhQ+Sre1HaJVXgeS6F5vJ8VN51Qs2dyU3a0ujnymaT4vok+57B7hgDmyFiUVqjtEK1m7i3fkElEaL1ot5snnXOvbD7ssIeEWud7YmnyVf3UdIxyXaEshZDylDewI4x+tZgNu6htB6SfGlSA8dJIk+KI/jje1hdrXP1jzUETbkYIOJwdaHO6modf7yKFEcgjTzghMHajiinQHlMFwOPy4trzP3V5uxMSL+3QT6/k8+uNnnu4BCv7h2lUx5DOq2MzLacVw77VYLBJ7JdB/1EGXbkNDOTFXy2WFpZ5UB1mONTEzy2M4fve2Q46M1Gh7A7q52NjYui9RpWiOKUiUqBUk4Tm2Gmpp8nNsOUAs1EpUAUJWBTRJsVU299onPXkz9Vki3Ra6P9AHFcFlaa1JIK9/0JakmFhZUm4rjoXA7V24A0/uno91I3RxqSzp0bvan67dNqs0XfH2B6sspgLkGIUSi621X62wkq2kSFHdHd9nUAA2AHSst6syXO+prKhndjHt1PL0xAAQJeliL3VnDW7yLG69nS+NJDrLJsGZtukWUFp3Eb22ngDg4jXoCKQ1T3H3TYAwRl05tIVHuIUbKG49Yx3j5smuiw11H9blkUSgmCUm0x7hDaUQhXjl263QLQ/KebIDcQewvlvExQOiFeMIvxQ/GCD2xQOonSbyBSA/mdB5kHF+AK8MWxS7e/A7h24fH3QG+imJ2ZXWoBi9de29sA7vyP/wWe7o818hNvawAAAABJRU5ErkJggg==); }
+    .PlanetCard__card__label___3zXwr.PlanetCard__climate___ZMqnX {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAASCAYAAACEnoQPAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAF8SURBVDiNjdNLb41RFMbx36rTSkxEUAZi4DJo3G9FIhINE2MSw0b4Gsa+g6mIgYmYtEljhhKkMZAatG7RSImQolHaZXDWSZo65+ia7Dd7P896/vvyRmbqVhGxFgM4gyEcxBKuNNqIt2APejJzDFtxCl9xt8ajmG8sM23DZRzDZ9yppQVM1/w5zOISfkZmiogLuIq3uI3XJTyPI+jBOG5iDBcRgfvYh1F8wA7swhwe4wEeZuZsRAzjLG5hJHANBzCDj3hS2DOFOFCYJ/EcN6rxYAu7t9KH8Qe/sQbrkXiGkTqDwWp0L1ZeVUT0YzuiSNZhcxEcr61dz8z5f8zV4HAd1o9Kb1SjcbzIzAU12a4msBv9mMSvIhiqbU1Ap+TAIWzElwpZqu83mbnYMTkzMyL6cBrvK20DJjNzqqXrhA2vKvk75vEJ75YLupl7sb+Mc3jUwl2NeRFPNe85M/PlSkHPf8x7cQJ97QTdzN80f8EpzWe6enM2axo7samd5i+qRIwVwS7NcAAAAABJRU5ErkJggg==); }
+    .PlanetCard__card__label___3zXwr.PlanetCard__terrain___N_sXh {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAANrwAADa8BQr/nKgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAADUSURBVCiRjdI/S8JRFMbxz49+NETuSbS5OLUr2J8X0RCOLr4L34AQuEi7oODU0hA0RaNzQ0PQ0qZbKMiv5QgqavfA5Z7L8zzfM5yrKAr/HZTxhOpeTyLoEb8YszuzL3iLs+jb+EEdH+gkgXCFBYa4xBR3oV1jjpuDIJziE31MUOBhy9PBF0qHQEO8R9/AACdbnhxvGO0EoYUZzhO3OEVrA4RKCM2ULUbmPgZX4i3HK7qpkDVYN7J5jh5qeM6yrI0jabWMb1FDL8MLLkI8ToSsahH39x8bDlrn4k73QAAAAABJRU5ErkJggg==); }
+  .PlanetCard__card__info___2u_It {
+    font-size: 14px; }
+
+.PlanetCard__info-wrapper___2dRig {
+  margin-bottom: 10px; }
+.Spinner__loading-text___C2Pms {
+  color: #FF0000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -75px;
+  text-align: center; }
+.Button__btn-next___1iOpY {
+  background: linear-gradient(#F7F7F7, #F2F2F2);
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px rgba(51, 51, 51, 0.6);
+  color: #CC0000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 5px;
+  text-align: center;
+  text-shadow: 1px 1px #cccccc;
+  width: 100%; }
+.GameContainer__card-wrapper___2YNsa {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=main.3df328a2.css.map*/
