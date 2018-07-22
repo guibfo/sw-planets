@@ -222,6 +222,7 @@ module.exports = {
                   options: {
                     modules: true,
                     sourceMap: true,
+                    minimize: true,
                     importLoaders: 2,
                     localIdentName: '[name]__[local]___[hash:base64:5]'
                   }
