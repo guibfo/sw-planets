@@ -64,6 +64,10 @@ class GameContainer extends Component {
       );
     }
 
+    if(this.state.error) {
+      singlePlanet = 'Something wrong happened :(';
+    }
+
     return (
       <div className={styles['card-wrapper']}>
         {singlePlanet}

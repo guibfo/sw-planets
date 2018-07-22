@@ -6,7 +6,7 @@ import loadingImg from '../../../assets/images/vader-loading.gif';
 
 const Spinner = () => (
     <Aux>
-      <div><img src={loadingImg} alt='loading' /></div>
+      <div className={styles['loading-img']}><img src={loadingImg} alt='loading' /></div>
       <div className={styles['loading-text']}>Wait while loading planets...</div>
     </Aux>
 );
