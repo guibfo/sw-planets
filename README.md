@@ -4,7 +4,7 @@ This is a test React project that uses [https://swapi.co](https://swapi.co) to g
 
 When clicking 'Next' it shows another random planet information.
 
-##Installation
+## Installation
 
 Clone Repository or Download and unzip the contents on a folder. Go to the project folder on terminal and run
 
