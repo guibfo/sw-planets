@@ -4,6 +4,26 @@ This is a test React project that uses [https://swapi.co](https://swapi.co) to g
 
 When clicking 'Next' it shows another random planet information.
 
+##Installation
+
+Clone Repository or Download and unzip the contents on a folder. Go to the project folder on terminal and run
+
+```
+npm install // yarn install
+```
+
+To get the development server running, after all dependencies are downloaded run
+
+```
+npm start // yarn start
+```
+
+To build the app for production
+
+```
+npm run build // yarn build
+```
+
 ## Authors
 
 * [Guilherme Oliveira](https://github.com/guibfo)
