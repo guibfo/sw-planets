@@ -12,17 +12,21 @@ Clone Repository or Download and unzip the contents on a folder. Go to the proje
 npm install // yarn install
 ```
 
-To get the development server running, after all dependencies are downloaded run
+Getting the development server running, after all dependencies are downloaded run
 
 ```
 npm start // yarn start
 ```
 
-To build the app for production
+Building the app for production
 
 ```
 npm run build // yarn build
 ```
+
+## Demo
+
+[https://guibfo.github.io/sw-planets](https://guibfo.github.io/sw-planets)
 
 ## Authors
 
