@@ -1,7 +1,10 @@
+// @flow
 import React from 'react';
 import StyledCard from './styled';
 
-const PlanetCard = props => {
+type Props = {}
+
+const PlanetCard = (props: Props) => {
   return (
     <StyledCard>
       <header className='card__header'>
