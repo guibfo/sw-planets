@@ -1,4 +1,7 @@
-.card {
+// @flow
+import styled from 'styled-components';
+
+const PlanetCard = styled.div`
   background-color: #FFFFFF;
   border-radius: 5px;
   box-shadow: 0px 0px 1px 0px rgba(51, 51, 51, 0.6);
@@ -12,6 +15,10 @@
   .featured {
     margin-top: 20px;
     text-align: center;
+  }
+
+  .info-wrapper {
+    margin-bottom: 10px;
   }
 
   &__title {
@@ -52,8 +59,6 @@
   &__info {
     font-size: 14px;
   }
-}
+`;
 
-.info-wrapper {
-  margin-bottom: 10px;
-}
+export default PlanetCard;

@@ -9,19 +9,19 @@ When clicking 'Next' it shows another random planet information.
 Clone Repository or Download and unzip the contents on a folder. Go to the project folder on terminal and run
 
 ```
-npm install // yarn install
+npm install
 ```
 
 Getting the development server running, after all dependencies are downloaded run
 
 ```
-npm start // yarn start
+npm start
 ```
 
 Building the app for production
 
 ```
-npm run build // yarn build
+npm run build
 ```
 
 ## Demo

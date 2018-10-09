@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+// @flow
+import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 
-import PlanetCard from '../../components/PlanetCard/PlanetCard';
-import Spinner from '../../components/UI/Spinner/Spinner';
-import Button from '../../components/UI/Button/Button';
-import Aux from '../../hoc/Auxiliary';
-import styles from './GameContainer.scss';
+import GameContainer from './styled';
+import PlanetCard from '../../components/PlanetCard';
+import Loader from '../../components/UI/Loader';
+import Button from '../../components/UI/Button';
 
 class GameContainer extends Component {
   state = {
@@ -57,10 +57,10 @@ class GameContainer extends Component {
     }
     else {
       singlePlanet = (
-        <Aux>
+        <Fragment>
           <PlanetCard planet={this.state.randomPlanet} />
           <Button click={this.randomizePlanetHandler}/>
-        </Aux>
+        </Fragment>
       );
     }
 
@@ -69,9 +69,9 @@ class GameContainer extends Component {
     }
 
     return (
-      <div className={styles['card-wrapper']}>
+      <GameContainer>
         {singlePlanet}
-      </div>
+      </GameContainer>
     );
   }
 }
