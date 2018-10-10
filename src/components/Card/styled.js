@@ -1,7 +1,7 @@
 // @flow
 import styled from 'styled-components';
 
-const PlanetCard = styled.div`
+const Card = styled.div`
   background-color: #FFFFFF;
   border-radius: 5px;
   box-shadow: 0px 0px 1px 0px rgba(51, 51, 51, 0.6);
@@ -61,4 +61,4 @@ const PlanetCard = styled.div`
   }
 `;
 
-export default PlanetCard;
+export default Card;

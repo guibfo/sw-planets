@@ -7,7 +7,7 @@ const mapStateToProps = state => ({});
 
 const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);
 
-const GameContainerWithRedux: typeof Dashboard = connect(
+const GameContainerWithRedux: typeof GameContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(GameContainer);
