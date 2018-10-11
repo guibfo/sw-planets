@@ -2,18 +2,15 @@
 import { combineReducers } from 'redux';
 import * as types from '../actionTypes';
 
-function isFetching (state = false, action: { type: string } = {}) {
+function planets(state = [], action: {type: string} = {}) {
   switch (action.type) {
-    case types.GET_PLANETS_REQUEST:
-      return true;
     case types.GET_PLANETS_SUCCESS:
-    case types.GET_PLANETS_FAILURE:
-      return false;
+      return {...state, list: action.planets};
     default:
       return state;
   }
 }
 
 export default combineReducers({
-  isFetching
+  planets
 });

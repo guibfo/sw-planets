@@ -1,11 +1,19 @@
 // @flow
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import GameContainer from './GameContainer';
 
-const mapStateToProps = state => ({});
+// Functions from reducers
+const mapStateToProps = state => ({
+  isFetching: state.isFetching,
+  planets: state.planets
+});
 
-const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);
+// Functions from sagas
+const mapDispatchToProps = dispatch => {
+  return {
+    fetchPlanets: () => dispatch({type: 'GET_PLANETS_REQUEST'})
+  };
+};
 
 const GameContainerWithRedux: typeof GameContainer = connect(
   mapStateToProps,
