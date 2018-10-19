@@ -8,7 +8,7 @@ type Props = {
 
 class GameContainer extends Component<Props, State> {
   state = {
-    planet: null
+    currentPlanet: null
   }
 
   componentDidMount() {
@@ -17,7 +17,7 @@ class GameContainer extends Component<Props, State> {
 
   // randomizePlanetHandler = () => {
   //   this.setState({
-  //     planetlanet: this.props.planets[Math.floor(Math.random() * this.state.props.length)]
+  //     currentPlanet: this.props.planets[Math.floor(Math.random() * this.state.props.length)]
   //   });
   // }
 

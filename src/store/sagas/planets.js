@@ -11,14 +11,27 @@ export function * watcherSaga() {
 function * workerSaga() {
   try {
     const response = yield call(fetchPlanets, 'https://swapi.co/api/planets/');
-    const planets = response.data.results;
 
-    yield put({type: 'GET_PLANETS_SUCCESS', planets: planets});
+    yield put({type: 'GET_PLANETS_SUCCESS', response});
   } catch (error) {
     yield put({type: 'GET_PLANETS_FAILURE', error});
   }
 }
 
-function fetchPlanets(url) {
-  return axios.get(url);
+function fetchPlanets(url, planets = []) {
+  axios.get(url)
+    .then(response => {
+      response.data.results.map(planet => {
+        return planets.push(planet);
+      });
+
+      if (response.data.next) {
+        fetchPlanets(response.data.next, planets);
+      } else {
+        return planets;
+      }
+    })
+    .catch(error => {
+      return error;
+    });
 }
